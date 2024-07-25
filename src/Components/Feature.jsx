@@ -68,8 +68,8 @@ const Feature = () => {
                 className="h-8 w-8 rounded-full "
               />
               <div className="avatarData font-primary ">
-                <h4 className="xs:text-xs font-bold ">Kyle Burton</h4>
-                <h5 className="xs:text-xs">Founder & CEO, Huddle</h5>
+                <h3 className="xs:text-xs font-bold ">Kyle Burton</h3>
+                <h4 className="xs:text-xs">Founder & CEO, Huddle</h4>
               </div>
             </div>
           </div>

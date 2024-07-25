@@ -43,11 +43,11 @@ const CallToAction = () => {
         >
           <Form className=" justify-self-center">
             {" "}
-            <label htmlFor="email"> </label>
+            <label htmlFor="FooterEmail"> </label>
             <Field
               type="text"
               name="email"
-              id="email"
+              id="FooterEmail"
               placeholder="Enter your email address"
               className="border border-black border-solid  indent-2 my-4 rounded  outline-none placeholder:text-xs text-black xs:w-full
               xs:py-1 

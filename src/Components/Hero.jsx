@@ -34,8 +34,8 @@ const Hero = () => {
               <label htmlFor="email"></label>
               <Field
                 type="text"
-                name="email"
-                id="email"
+                name="HeroEmail"
+                id="HeroEmail"
                 placeholder="Enter your email address"
                 className="border border-black border-solid sm:py-2 indent-2 my-4 rounded  outline-none 
                   placeholder:text-xs text-black w-full
