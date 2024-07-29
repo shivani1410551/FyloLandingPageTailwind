@@ -36,8 +36,9 @@ const CallToAction = () => {
         </div>
         <Formik
           initialValues={{ email: "" }}
-          onSubmit={(value) => {
+          onSubmit={(value,resetForm) => {
             console.log(value.email);
+             resetForm();
             validationSchema = formSchema;
           }}
         >
