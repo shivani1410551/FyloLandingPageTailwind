@@ -24,10 +24,12 @@ const Hero = () => {
           </p>
           <Formik
             initialValues={{ email: "" }}
-            onSubmit={(value) => {
+            onSubmit={(value , resetForm) => {
               console.log(value.email);
-              validationSchema = formSchema;
+                       resetForm();
+
             }}
+             validationSchema = formSchema;
           >
             <Form className="md:grid md:grid-cols-3 md:gap-2">
               {" "}
