@@ -39,8 +39,9 @@ const CallToAction = () => {
           onSubmit={(value,resetForm) => {
             console.log(value.email);
              resetForm();
-            validationSchema = formSchema;
+            
           }}
+          validationSchema = formSchema;
         >
           <Form className=" justify-self-center">
             {" "}
