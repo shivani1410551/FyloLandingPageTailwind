@@ -71,7 +71,7 @@ attempted value: ${o}
         `,children:"Get early access today"}),S.jsx("p",{className:`xs:text-[0.8rem] text-slate-200 xs:text-center
           lg:w-[25rem]
           lg:text-sm
-          lg:text-justify`,children:"It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you."})]}),S.jsx(ih,{initialValues:{email:""},onSubmit:e=>{console.log(e.email),validationSchema=Tw},children:S.jsxs(qs,{className:" justify-self-center",children:[" ",S.jsx("label",{htmlFor:"FooterEmail",children:" "}),S.jsx(lh,{type:"text",name:"email",id:"FooterEmail",placeholder:"Enter your email address",className:`border border-black border-solid  indent-2 my-4 rounded  outline-none placeholder:text-xs text-black xs:w-full
+          lg:text-justify`,children:"It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you."})]}),S.jsx(ih,{initialValues:{email:""},onSubmit:(e,t)=>{console.log(e.email),t(),validationSchema=Tw},children:S.jsxs(qs,{className:" justify-self-center",children:[" ",S.jsx("label",{htmlFor:"FooterEmail",children:" "}),S.jsx(lh,{type:"text",name:"email",id:"FooterEmail",placeholder:"Enter your email address",className:`border border-black border-solid  indent-2 my-4 rounded  outline-none placeholder:text-xs text-black xs:w-full
               xs:py-1 
                 `}),S.jsx(oh,{name:"email",className:"text-red-400 sm:text-xs md:text-base py-2"}),S.jsx("button",{type:"submit",className:`text-LightGrayishBlue bg-BrightBlue rounded  outline-none 
               xs:w-full xs:p-1
