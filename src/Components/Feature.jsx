@@ -40,14 +40,20 @@ const Feature = () => {
           </p>
           <a
             href="#"
-            className="sm:mx-auto block w-fit xs:my-6  border-b-2 border-ModerateCyan text-ModerateCyan sm:text-xs  md:text-sm hover:text-green-200
+            className="
+            xs:text-center  no-underline border-b border-solid  w-fit xxs:text-[0.85em] text-Cyan pb-[0.5rem]
+            
+            
+            sm:mx-auto  xs:my-6   border-ModerateCyan text-ModerateCyan sm:text-xs  md:text-sm hover:text-green-200
             hover:border-green-200"
           >
             See how Fylo works
             <img
               src="./assets/images/icon-arrow.svg"
               alt="arrow"
-              className="inline-block hover:opacity-50"
+              className="
+              ml-[0.5rem] h-4
+              inline-block hover:opacity-50"
             />
           </a>
           <div className="testimonial          shadow bg-white my-4 p-6 rounded md:w-[20rem]">
