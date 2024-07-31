@@ -43,7 +43,7 @@ const Hero = () => {
                   placeholder:text-xs text-black w-full
               md:col-start-1
               md:col-end-3
- 
+ shadow-md
                 "
               />
               <ErrorMessage
