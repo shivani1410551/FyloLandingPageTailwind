@@ -43,7 +43,7 @@ const Feature = () => {
             className="
             xs:text-center  no-underline border-b border-solid  w-fit xxs:text-[0.85em] text-Cyan pb-[0.5rem]
             
-            
+            md:text-justify
             sm:mx-auto  xs:my-6   border-ModerateCyan text-ModerateCyan sm:text-xs  md:text-sm hover:text-green-200
             hover:border-green-200"
           >
